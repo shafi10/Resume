@@ -24,15 +24,15 @@ export default function Dashboard() {
               </div>
               <div className="link">
                 <i class="fab fa-github"></i>
-                <h6><a target="_blank" href="https://github.com">Github</a></h6>
+                <h6><a target="_blank" rel="noreferrer" href="https://github.com">Github</a></h6>
               </div>
               <div className="link">
                 <i class="fab fa-linkedin"></i>
-                <h6><a target="_blank" href="https://www.linkedin.com/in/md-shafiul-islam-521b21169/">Linkedin</a></h6>
+                <h6><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/md-shafiul-islam-521b21169/">Linkedin</a></h6>
               </div>
             </div>
             <div className="pro">
-              <button><a href = {Pdf} target = "_blank">Resume</a></button>
+              <button><a href = {Pdf} rel="noreferrer" target = "_blank">Resume</a></button>
               <button onClick={()=>{
                   setProjects(prev => !prev)
                   if(projects){
