@@ -17,9 +17,10 @@ a:hover{
 button{
   padding: 5px;
   border: none;
-  background-color: cornflowerblue;
+  background-color: #65dfc9;
   outline: none;
   margin-right: 2px;
+  cursor: pointer;
 }
 
 .main{
