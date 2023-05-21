@@ -86,9 +86,9 @@ button{
 
 .link{
   display: flex;
-  margin: .5rem 0rem;
-  padding: 5px 2rem;
   align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
 }
 
 

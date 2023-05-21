@@ -48,6 +48,14 @@ export default function Project() {
             </a>
           </div>
         </div>
+        <div className="card">
+          <i class="fas fa-file-code"></i>
+          <div>
+            <a target="_blank" rel="noreferrer" href="https://shopfrontend.vercel.app/">
+              E-Commerce Template
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
